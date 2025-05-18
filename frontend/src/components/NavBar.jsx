@@ -105,10 +105,6 @@ const NavBar = () => {
           </Button>
         </HStack>
       </HStack>
-
-      <VStack spacing={4} mt={8}>
-        <Text color={textColor}>Welcome to my website!</Text>
-      </VStack>
     </Container>
   );
 };
