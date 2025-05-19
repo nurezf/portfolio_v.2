@@ -1,6 +1,9 @@
 import {
   Box,
   HStack,
+  Heading,
+  Text,
+  Button,
   useDisclosure,
   useColorMode,
   useColorModeValue,
@@ -9,6 +12,7 @@ import { useState } from "react";
 
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
+import Description from "./components/Description";
 
 function App() {
   const bgColor = useColorModeValue("gray.50", "gray.800");
@@ -18,6 +22,8 @@ function App() {
     <Box w="100%" minH="100vh" bg={bgColor}>
       <NavBar />
       <Hero />
+
+      <Description> </Description>
     </Box>
   );
 }

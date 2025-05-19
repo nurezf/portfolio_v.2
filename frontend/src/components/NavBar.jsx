@@ -28,7 +28,14 @@ const NavBar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <Container maxW="container.xl">
+    <Container
+      maxW="container.xl"
+      position="fixed"
+      top={0}
+      left={0}
+      bg={bgColor}
+      zIndex={1}
+    >
       <HStack justify="space-between" p={4}>
         <Heading
           bgGradient="linear(to-l, #7B9FF3, #3353F8)"
