@@ -2,6 +2,8 @@ import {
   Box,
   HStack,
   Heading,
+  Container,
+  Card,
   Text,
   Button,
   useDisclosure,
@@ -13,6 +15,7 @@ import { useState } from "react";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import Description from "./components/Description";
+import Services from "./components/Services";
 
 function App() {
   const bgColor = useColorModeValue("gray.50", "gray.800");
@@ -24,6 +27,7 @@ function App() {
       <Hero />
 
       <Description> </Description>
+      <Services />
     </Box>
   );
 }

@@ -29,7 +29,7 @@ const NavBar = () => {
 
   return (
     <Container
-      maxW="container.xl"
+      maxW="100%"
       position="fixed"
       top={0}
       left={0}

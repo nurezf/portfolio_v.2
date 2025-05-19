@@ -18,8 +18,8 @@ const Description = () => {
   const textColor = useColorModeValue("gray.800", "white");
 
   return (
-    <Box m="2rem auto" maxW="1000px" p={4} textAlign="left" display="flex">
-      <Container>
+    <Box m="5rem auto" maxW="1000px" p={4} textAlign="left" display="flex">
+      <Container display={{ base: "none", md: "block" }} maxW="50%">
         <Image src={homeRight} />
       </Container>
       <Container>
