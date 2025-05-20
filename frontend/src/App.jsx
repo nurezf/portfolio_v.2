@@ -17,6 +17,7 @@ import Hero from "./components/Hero";
 import Description from "./components/Description";
 import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
+import ClientResponse from "./components/ClientResponse";
 
 function App() {
   const bgColor = useColorModeValue("gray.50", "gray.800");
@@ -30,6 +31,7 @@ function App() {
       <Description> </Description>
       <Services />
       <Portfolio />
+      <ClientResponse />
     </Box>
   );
 }
