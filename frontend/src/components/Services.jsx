@@ -26,8 +26,8 @@ const Services = () => {
   const bgColor = useColorModeValue("gray.50", "gray.800");
   const textColor = useColorModeValue("gray.800", "white");
   const cardBorder = useColorModeValue("gray.200", "gray.600");
-  const cardHover = useColorModeValue("gray.100", "gray.600");
-  const cardBg = useColorModeValue("white", "gray.700");
+  const cardHover = useColorModeValue("white", "gray.600");
+  const cardBg = useColorModeValue("gray.100", "gray.700");
 
   return (
     <Box
@@ -48,8 +48,13 @@ const Services = () => {
         need a new website, a mobile app, or help with your existing projects, I
         am here to help.
       </Text>
-      <Container maxW="1000px" mt={8}>
-        <HStack spacing={5} mt={4}>
+      <Container maxW="1000px" mt={8} p={4}>
+        <HStack
+          spacing={5}
+          mt={4}
+          display="flex"
+          flexDirection={{ base: "column", md: "row" }}
+        >
           <Card
             w="900px"
             display="flex"
@@ -65,6 +70,8 @@ const Services = () => {
             borderRadius="lg"
             borderWidth="1px"
             borderColor={cardBorder}
+            ml={{ base: "2", md: "0" }}
+            mr={{ base: "2", md: "0" }}
           >
             <CardBody display="flex" flexDirection="column" alignItems="center">
               <Image src={s1} alt="service 1" />
