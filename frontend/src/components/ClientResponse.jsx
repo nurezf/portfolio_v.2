@@ -25,7 +25,7 @@ const ClientResponse = () => {
         </Text>
       </Container>
       <HStack display="flex" justifyContent="center" flexWrap="wrap">
-        <Card maxW="400px" m={4} p={4} textAlign="center">
+        <Card maxW="350px" m={4} p={4} textAlign="center">
           <CardBody
             display="flex"
             flexDirection="column"
@@ -48,7 +48,7 @@ const ClientResponse = () => {
             <Text as="i">--> Dan Abramov</Text>
           </CardFooter>
         </Card>
-        <Card maxW="400px" m={4} p={4} textAlign="center">
+        <Card maxW="350px" m={4} p={4} textAlign="center">
           <CardBody
             display="flex"
             flexDirection="column"
@@ -71,7 +71,7 @@ const ClientResponse = () => {
             <Text as="i">--> Dan Abramov</Text>
           </CardFooter>
         </Card>
-        <Card maxW="400px" m={4} p={4} textAlign="center">
+        <Card maxW="350px" m={4} p={4} textAlign="center">
           <CardBody
             display="flex"
             flexDirection="column"
