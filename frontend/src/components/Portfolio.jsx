@@ -58,7 +58,7 @@ const Portfolio = () => {
             <CardBody>
               <Image src={p1} alt="Project 1" borderRadius="lg" />
               <Text mt={4} fontSize="lg">
-                Project 1 Description
+                game hub
               </Text>
               <ButtonGroup mt={4}>
                 <Button colorScheme="blue">
